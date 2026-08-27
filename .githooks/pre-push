@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# ABOUTME: Pre-push gate. Runs ruff and the fast test suite before any push leaves this machine.
+# ABOUTME: Slow full-corpus tests are excluded here; GitHub Actions runs them on main.
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+# Hooks do not inherit an interactive shell's PATH.
+if command -v uv >/dev/null 2>&1; then
+    UV="$(command -v uv)"
+elif [ -x "$HOME/.local/bin/uv" ]; then
+    UV="$HOME/.local/bin/uv"
+else
+    echo "pre-push: uv not found, cannot run the gate." >&2
+    exit 1
+fi
+
+echo "── pre-push gate ──────────────────────────────────"
+
+echo "[1/2] ruff"
+if ! "$UV" run ruff check .; then
+    echo >&2
+    echo "REJECTED — ruff found errors. Push aborted." >&2
+    exit 1
+fi
+
+echo "[2/2] pytest (fast pass, 'slow' tests excluded)"
+if ! "$UV" run pytest -m "not slow" -q; then
+    echo >&2
+    echo "REJECTED — at least one test fails. Push aborted." >&2
+    exit 1
+fi
+
+echo "── ACCEPTED — pushing ─────────────────────────────"

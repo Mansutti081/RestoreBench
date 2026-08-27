@@ -1,0 +1,276 @@
+{
+  "dataset_version": "pegase89-reactive-deficit-v1",
+  "families_evaluated": 460,
+  "pockets_considered": 109,
+  "policy": {
+    "composition": {
+      "max_component_share": 1.0,
+      "min_action_family_share": 0.0,
+      "min_distinct_components": 1,
+      "min_distinct_witness_lengths": 2,
+      "min_sequential_share": 0.05,
+      "policy_version": "corpus-composition-floors-v2",
+      "required_action_families": []
+    },
+    "dataset_version": "pegase89-reactive-deficit-v1",
+    "leakage_similarity_threshold": 0.995,
+    "maximum_family_evaluations": 4000,
+    "minimum_family_evaluations_per_scenario": 10,
+    "network_id": "case89pegase",
+    "operating_profiles": {
+      "max_profiles": 33,
+      "max_simultaneous_deviations": 1,
+      "policy_version": "pocket-independent-operating-profiles-v1"
+    },
+    "pockets": {
+      "common_mva_base": 100.0,
+      "distance_scales_pu": [
+        0.02,
+        0.05,
+        0.08,
+        0.1,
+        0.12,
+        0.14
+      ],
+      "minimum_base_abs_q_mvar": 10.0,
+      "minimum_base_p_mw": 50.0,
+      "minimum_edge_weight_pu": 1e-06,
+      "minimum_load_count": 4,
+      "near_duplicate_cosine": 0.995,
+      "policy_version": "impedance-exponential-pocket-v1",
+      "weight_cutoff": 0.05
+    },
+    "pool_multiplier": 1.5,
+    "reactive_thresholds": {
+      "common_mva_base": 100.0,
+      "material_q_violation_floor_mvar": 5.0,
+      "material_q_violation_fraction": 0.05,
+      "maximum_weak_region_distance_pu": 0.2,
+      "minimum_edge_weight_pu": 1e-06,
+      "minimum_q_headroom_reduction_mvar": 20.0,
+      "minimum_voltage_deterioration_pu": 0.02,
+      "policy_version": "reactive-deficit-evidence-thresholds-v2",
+      "weak_bus_band_pu": 0.02
+    },
+    "scan": {
+      "coarse_coordinates": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        7.25,
+        7.5,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "policy_version": "reactive-deficit-coarse-scan-v1",
+      "refinement_resolution": 0.02,
+      "stop_on_solved_infeasibility": false
+    },
+    "seed": 42,
+    "target_offsets": [
+      0.02,
+      0.2,
+      0.5
+    ],
+    "witness": {
+      "beam_branching_width": 8,
+      "beam_width": 3,
+      "bfs_max_depth": 1,
+      "diagnostic_coordinates": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "diagnostic_resolution": 0.02,
+      "frontier_budget": 16,
+      "maneuver_budget": 10,
+      "policy_version": "deterministic-bfs-beam-qv-v4"
+    }
+  },
+  "pool_composition": {
+    "distinct_operating_profiles": 31,
+    "distinct_pocket_anchors": 16,
+    "distinct_witness_components": 37,
+    "max_component_share": 0.35106382978723405,
+    "resolution_regime": {
+      "DIRECT": 60,
+      "SEQUENTIAL": 34
+    },
+    "sequential_share": 0.3617021276595745,
+    "total": 94,
+    "witness_action_family_counts": {
+      "GEN_V_SETPOINT": 3,
+      "SHUNT_STEP": 47,
+      "TAP_ADJUSTMENT": 76
+    },
+    "witness_action_family_shares": {
+      "GEN_V_SETPOINT": 0.031914893617021274,
+      "SHUNT_STEP": 0.5,
+      "TAP_ADJUSTMENT": 0.8085106382978723
+    },
+    "witness_component_counts": {
+      "GEN:9": 3,
+      "SHUNT:0": 1,
+      "SHUNT:1": 33,
+      "SHUNT:10": 29,
+      "SHUNT:11": 30,
+      "SHUNT:12": 1,
+      "SHUNT:14": 1,
+      "SHUNT:15": 2,
+      "SHUNT:16": 1,
+      "SHUNT:17": 2,
+      "SHUNT:19": 1,
+      "SHUNT:2": 6,
+      "SHUNT:20": 7,
+      "SHUNT:21": 4,
+      "SHUNT:23": 1,
+      "SHUNT:24": 1,
+      "SHUNT:25": 28,
+      "SHUNT:27": 3,
+      "SHUNT:29": 1,
+      "SHUNT:30": 1,
+      "SHUNT:31": 4,
+      "SHUNT:39": 27,
+      "SHUNT:5": 1,
+      "SHUNT:6": 25,
+      "SHUNT:9": 1,
+      "TRAFO:0": 14,
+      "TRAFO:1": 2,
+      "TRAFO:10": 16,
+      "TRAFO:11": 33,
+      "TRAFO:12": 5,
+      "TRAFO:14": 2,
+      "TRAFO:17": 13,
+      "TRAFO:19": 4,
+      "TRAFO:20": 2,
+      "TRAFO:21": 14,
+      "TRAFO:28": 1,
+      "TRAFO:33": 12
+    },
+    "witness_length": {
+      "1": 60,
+      "2": 1,
+      "3": 2,
+      "4": 2,
+      "6": 2,
+      "7": 2,
+      "8": 4,
+      "9": 12,
+      "10": 9
+    },
+    "witness_optimality": {
+      "EXACT_MINIMUM": 60,
+      "UPPER_BOUND": 34
+    }
+  },
+  "pool_qv_locality": {
+    "local_count": 94,
+    "local_share": 1.0,
+    "max_distance_pu": 0.12388776628103665,
+    "median_distance_pu": 0.045213849648089006,
+    "min_distance_pu": 0.0,
+    "total": 94
+  },
+  "profiles_considered": 33,
+  "rejection_counts": {
+    "FAMILY:curation family rejected with boundary status NO_TRANSITION": 12,
+    "FAMILY:curation family rejected with boundary status SLACK_INFEASIBLE": 178,
+    "PROFILE_LIBRARY_CAP": 76,
+    "TARGET:Q-unlimited counterfactual did not converge: Power Flow nr did not converge after 30 iterations!": 43,
+    "TARGET:insufficient voltage deterioration for reactive-deficit admission": 26,
+    "WITNESS:no valid Q-V witness found within maneuver budget": 647
+  },
+  "requested_count": 46,
+  "split_counts": {
+    "held_out": 46,
+    "memory_population": 0
+  },
+  "selected_composition": {
+    "distinct_operating_profiles": 31,
+    "distinct_pocket_anchors": 16,
+    "distinct_witness_components": 29,
+    "max_component_share": 0.32608695652173914,
+    "resolution_regime": {
+      "DIRECT": 30,
+      "SEQUENTIAL": 16
+    },
+    "sequential_share": 0.34782608695652173,
+    "total": 46,
+    "witness_action_family_counts": {
+      "GEN_V_SETPOINT": 1,
+      "SHUNT_STEP": 22,
+      "TAP_ADJUSTMENT": 37
+    },
+    "witness_action_family_shares": {
+      "GEN_V_SETPOINT": 0.021739130434782608,
+      "SHUNT_STEP": 0.4782608695652174,
+      "TAP_ADJUSTMENT": 0.8043478260869565
+    },
+    "witness_component_counts": {
+      "GEN:9": 1,
+      "SHUNT:1": 15,
+      "SHUNT:10": 14,
+      "SHUNT:11": 13,
+      "SHUNT:14": 1,
+      "SHUNT:17": 1,
+      "SHUNT:2": 3,
+      "SHUNT:20": 4,
+      "SHUNT:21": 3,
+      "SHUNT:25": 13,
+      "SHUNT:27": 1,
+      "SHUNT:29": 1,
+      "SHUNT:30": 1,
+      "SHUNT:31": 2,
+      "SHUNT:39": 12,
+      "SHUNT:5": 1,
+      "SHUNT:6": 11,
+      "SHUNT:9": 1,
+      "TRAFO:0": 5,
+      "TRAFO:1": 1,
+      "TRAFO:10": 10,
+      "TRAFO:11": 12,
+      "TRAFO:12": 3,
+      "TRAFO:17": 5,
+      "TRAFO:19": 2,
+      "TRAFO:20": 1,
+      "TRAFO:21": 10,
+      "TRAFO:28": 1,
+      "TRAFO:33": 5
+    },
+    "witness_length": {
+      "1": 30,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 7,
+      "10": 3
+    },
+    "witness_optimality": {
+      "EXACT_MINIMUM": 30,
+      "UPPER_BOUND": 16
+    }
+  },
+  "selected_qv_locality": {
+    "local_count": 46,
+    "local_share": 1.0,
+    "max_distance_pu": 0.12388776628103665,
+    "median_distance_pu": 0.06212303241145343,
+    "min_distance_pu": 0.0,
+    "total": 46
+  },
+  "valid_pool_count": 94
+}

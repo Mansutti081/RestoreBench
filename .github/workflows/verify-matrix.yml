@@ -1,0 +1,30 @@
+name: verify-matrix
+
+# Manual sampler for cross-runner witness robustness: four parallel jobs land on up to four
+# different physical machines, so one dispatch gives four independent replays of every witness.
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        sample: [1, 2, 3, 4]
+    name: replay witnesses (sample ${{ matrix.sample }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv python install 3.11
+      - run: uv sync --frozen
+      - name: Runner CPU
+        run: grep -m1 "model name" /proc/cpuinfo
+      - name: ieee118
+        run: uv run restorebench-verify --dataset-dir dataset/ieee118
+      - name: pegase89
+        if: ${{ !cancelled() }}
+        run: uv run restorebench-verify --dataset-dir dataset/pegase89

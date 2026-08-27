@@ -1,0 +1,471 @@
+{
+  "dataset_dir": "dataset/pegase89",
+  "failed_check_counts": {},
+  "invalid_count": 0,
+  "reports": [
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.870665732323, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0001",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.774388155096, max_vm_pu=1.03467773192, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0002",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.881154710255, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0003",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.741403648478, max_vm_pu=1.06361708774, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0004",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.876844307603, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0005",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.865181441637, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0006",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.909344638722, max_vm_pu=1.030951, hard_envelope_ok=True"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0007",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.886661574465, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0008",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.834455476037, max_vm_pu=1.05, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0009",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.734489979257, max_vm_pu=1.0627357851, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0010",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.882742142639, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0011",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.881870321833, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0012",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.911288433736, max_vm_pu=1.030951, hard_envelope_ok=True"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0013",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.879244400165, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0014",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.774388155096, max_vm_pu=1.03467773192, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0015",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.737451617668, max_vm_pu=1.06328220775, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0016",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.911379944884, max_vm_pu=1.05, hard_envelope_ok=True"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0017",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.879210342873, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0018",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.902590632503, max_vm_pu=1.05885604903, hard_envelope_ok=True"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0019",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.854726025939, max_vm_pu=1.04407219842, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0020",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.87461904503, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0021",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.882920971143, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0022",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.882660614175, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0023",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.884351790551, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0024",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.877973839862, max_vm_pu=1.03585257997, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0025",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.885877355632, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0026",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.885822631242, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0027",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.851185641841, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0028",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.873003547282, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0029",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.884906645337, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0030",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.877008370248, max_vm_pu=1.03589860454, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0031",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.883469802211, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0032",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.874525872229, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0033",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.734489979257, max_vm_pu=1.0627357851, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0034",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.741939881571, max_vm_pu=1.06369820517, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0035",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.875747579657, max_vm_pu=1.03675739322, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0036",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.734489979257, max_vm_pu=1.0627357851, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0037",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.883700304399, max_vm_pu=1.05, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0038",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.865674416088, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0039",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.88234108042, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0040",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.875991707212, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0041",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.875474188598, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0042",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.767488870224, max_vm_pu=1.04085332176, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0043",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.886423901944, max_vm_pu=1.030951, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0044",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.868499559888, max_vm_pu=1.05, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0045",
+      "valid": true
+    },
+    {
+      "details": {
+        "witness_terminal_voltage": [
+          "min_vm_pu=0.890060763182, max_vm_pu=1.05, hard_envelope_ok=False"
+        ]
+      },
+      "failed_checks": [],
+      "scenario_id": "S0046",
+      "valid": true
+    }
+  ],
+  "total": 46,
+  "valid": true,
+  "valid_count": 46,
+  "validator_version": "reactive-deficit-validator-v8"
+}

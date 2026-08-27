@@ -1,0 +1,189 @@
+{
+  "dataset_version": "ieee118-reactive-deficit-v1",
+  "scenarios": [
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0008"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0012"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0014"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0016"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0019"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0029"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0039"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0041"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0046"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0048"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0049"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0052"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0053"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0056"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0057"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0058"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0059"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0069"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0070"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0072"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0073"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0081"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0086"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0087"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0096"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0097"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0102"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0105"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0107"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0111"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0117"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0136"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0137"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0138"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0141"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0166"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0167"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0168"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0170"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0171"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0175"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0177"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0181"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0182"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0198"
+    },
+    {
+      "memory_split": "held_out",
+      "scenario_id": "S0200"
+    }
+  ]
+}

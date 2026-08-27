@@ -1,0 +1,302 @@
+{
+  "dataset_version": "ieee118-reactive-deficit-v1",
+  "shipped_subset_note": "This report describes the generation-time run that produced the full scenario pool (requested_count=200 selected from a valid pool of 273). The public release ships only the 46-scenario held-out evaluation subset enumerated in manifest.json and evaluation_manifest.json; selected_composition and selected_qv_locality refer to the generation-time selection, not to the shipped corpus. Per-scenario provenance for the shipped subset is in private/labels.json.",
+  "split_counts": {
+    "held_out": 46,
+    "memory_population": 0
+  },
+  "families_evaluated": 493,
+  "pockets_considered": 452,
+  "policy": {
+    "composition": {
+      "max_component_share": 1.0,
+      "min_action_family_share": 0.0,
+      "min_distinct_components": 1,
+      "min_distinct_witness_lengths": 2,
+      "min_sequential_share": 0.05,
+      "policy_version": "corpus-composition-floors-v2",
+      "required_action_families": []
+    },
+    "dataset_version": "ieee118-reactive-deficit-v1",
+    "leakage_similarity_threshold": 0.995,
+    "maximum_family_evaluations": 4000,
+    "minimum_family_evaluations_per_scenario": 1,
+    "operating_profiles": {
+      "max_profiles": 33,
+      "max_simultaneous_deviations": 1,
+      "policy_version": "pocket-independent-operating-profiles-v1"
+    },
+    "pockets": {
+      "common_mva_base": 100.0,
+      "distance_scales_pu": [
+        0.02,
+        0.05,
+        0.08,
+        0.1,
+        0.12,
+        0.14
+      ],
+      "minimum_base_abs_q_mvar": 10.0,
+      "minimum_base_p_mw": 50.0,
+      "minimum_edge_weight_pu": 1e-06,
+      "minimum_load_count": 4,
+      "near_duplicate_cosine": 0.995,
+      "policy_version": "impedance-exponential-pocket-v1",
+      "weight_cutoff": 0.05
+    },
+    "pool_multiplier": 1.5,
+    "reactive_thresholds": {
+      "common_mva_base": 100.0,
+      "material_q_violation_floor_mvar": 5.0,
+      "material_q_violation_fraction": 0.05,
+      "maximum_weak_region_distance_pu": 0.2,
+      "minimum_edge_weight_pu": 1e-06,
+      "minimum_q_headroom_reduction_mvar": 20.0,
+      "minimum_voltage_deterioration_pu": 0.02,
+      "policy_version": "reactive-deficit-evidence-thresholds-v2",
+      "weak_bus_band_pu": 0.02
+    },
+    "scan": {
+      "coarse_coordinates": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        7.25,
+        7.5,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "policy_version": "reactive-deficit-coarse-scan-v1",
+      "refinement_resolution": 0.02,
+      "stop_on_solved_infeasibility": false
+    },
+    "seed": 42,
+    "target_offsets": [
+      0.02,
+      0.2,
+      0.5
+    ],
+    "witness": {
+      "beam_branching_width": 8,
+      "beam_width": 3,
+      "bfs_max_depth": 1,
+      "diagnostic_coordinates": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "diagnostic_resolution": 0.02,
+      "frontier_budget": 16,
+      "maneuver_budget": 10,
+      "policy_version": "deterministic-bfs-beam-qv-v3"
+    }
+  },
+  "pool_composition": {
+    "distinct_operating_profiles": 33,
+    "distinct_pocket_anchors": 57,
+    "distinct_witness_components": 54,
+    "max_component_share": 0.14285714285714285,
+    "resolution_regime": {
+      "DIRECT": 260,
+      "SEQUENTIAL": 13
+    },
+    "sequential_share": 0.047619047619047616,
+    "total": 273,
+    "witness_action_family_counts": {
+      "GEN_V_SETPOINT": 203,
+      "SHUNT_STEP": 30,
+      "TAP_ADJUSTMENT": 51
+    },
+    "witness_action_family_shares": {
+      "GEN_V_SETPOINT": 0.7435897435897436,
+      "SHUNT_STEP": 0.10989010989010989,
+      "TAP_ADJUSTMENT": 0.18681318681318682
+    },
+    "witness_component_counts": {
+      "GEN:0": 30,
+      "GEN:1": 18,
+      "GEN:10": 10,
+      "GEN:11": 13,
+      "GEN:12": 14,
+      "GEN:13": 6,
+      "GEN:14": 4,
+      "GEN:15": 7,
+      "GEN:16": 4,
+      "GEN:17": 4,
+      "GEN:18": 3,
+      "GEN:19": 5,
+      "GEN:2": 8,
+      "GEN:20": 5,
+      "GEN:21": 5,
+      "GEN:22": 3,
+      "GEN:24": 3,
+      "GEN:25": 11,
+      "GEN:26": 3,
+      "GEN:28": 1,
+      "GEN:29": 2,
+      "GEN:3": 4,
+      "GEN:30": 1,
+      "GEN:31": 1,
+      "GEN:33": 1,
+      "GEN:34": 4,
+      "GEN:35": 3,
+      "GEN:36": 1,
+      "GEN:37": 2,
+      "GEN:38": 3,
+      "GEN:4": 1,
+      "GEN:40": 2,
+      "GEN:41": 2,
+      "GEN:42": 2,
+      "GEN:45": 2,
+      "GEN:46": 1,
+      "GEN:47": 2,
+      "GEN:5": 1,
+      "GEN:51": 3,
+      "GEN:52": 9,
+      "GEN:7": 1,
+      "GEN:9": 1,
+      "SHUNT:0": 21,
+      "SHUNT:10": 1,
+      "SHUNT:11": 1,
+      "SHUNT:2": 8,
+      "SHUNT:6": 2,
+      "SHUNT:9": 2,
+      "TRAFO:0": 3,
+      "TRAFO:10": 39,
+      "TRAFO:2": 2,
+      "TRAFO:3": 5,
+      "TRAFO:4": 1,
+      "TRAFO:8": 1
+    },
+    "witness_length": {
+      "1": 260,
+      "2": 8,
+      "3": 3,
+      "4": 2
+    },
+    "witness_optimality": {
+      "EXACT_MINIMUM": 260,
+      "UPPER_BOUND": 13
+    }
+  },
+  "pool_qv_locality": {
+    "local_count": 273,
+    "local_share": 1.0,
+    "max_distance_pu": 0.1905203401214684,
+    "median_distance_pu": 0.0,
+    "min_distance_pu": 0.0,
+    "total": 273
+  },
+  "profiles_considered": 33,
+  "rejection_counts": {
+    "FAMILY:curation family rejected with boundary status ACTIVE_HEADROOM_EXHAUSTED": 61,
+    "FAMILY:curation family rejected with boundary status NO_TRANSITION": 74,
+    "FAMILY:curation family rejected with boundary status SLACK_INFEASIBLE": 134,
+    "TARGET:insufficient voltage deterioration for reactive-deficit admission": 59,
+    "TARGET:locked target must fail primary and recovery attempts": 24,
+    "TARGET:target converges under alternative initialization without action": 4,
+    "WITNESS:no valid Q-V witness found within maneuver budget": 285
+  },
+  "requested_count": 200,
+  "selected_composition": {
+    "distinct_operating_profiles": 33,
+    "distinct_pocket_anchors": 57,
+    "distinct_witness_components": 47,
+    "max_component_share": 0.145,
+    "resolution_regime": {
+      "DIRECT": 189,
+      "SEQUENTIAL": 11
+    },
+    "sequential_share": 0.055,
+    "total": 200,
+    "witness_action_family_counts": {
+      "GEN_V_SETPOINT": 145,
+      "SHUNT_STEP": 26,
+      "TAP_ADJUSTMENT": 38
+    },
+    "witness_action_family_shares": {
+      "GEN_V_SETPOINT": 0.725,
+      "SHUNT_STEP": 0.13,
+      "TAP_ADJUSTMENT": 0.19
+    },
+    "witness_component_counts": {
+      "GEN:0": 26,
+      "GEN:1": 11,
+      "GEN:10": 3,
+      "GEN:11": 12,
+      "GEN:12": 12,
+      "GEN:13": 6,
+      "GEN:14": 4,
+      "GEN:15": 4,
+      "GEN:16": 4,
+      "GEN:17": 3,
+      "GEN:19": 5,
+      "GEN:2": 8,
+      "GEN:20": 5,
+      "GEN:21": 4,
+      "GEN:24": 2,
+      "GEN:25": 8,
+      "GEN:26": 2,
+      "GEN:28": 1,
+      "GEN:29": 1,
+      "GEN:3": 3,
+      "GEN:31": 1,
+      "GEN:33": 1,
+      "GEN:34": 1,
+      "GEN:35": 2,
+      "GEN:38": 1,
+      "GEN:4": 1,
+      "GEN:40": 2,
+      "GEN:41": 2,
+      "GEN:42": 1,
+      "GEN:45": 1,
+      "GEN:46": 1,
+      "GEN:5": 1,
+      "GEN:51": 3,
+      "GEN:52": 4,
+      "GEN:7": 1,
+      "GEN:9": 1,
+      "SHUNT:0": 19,
+      "SHUNT:10": 1,
+      "SHUNT:2": 7,
+      "SHUNT:6": 2,
+      "SHUNT:9": 2,
+      "TRAFO:0": 2,
+      "TRAFO:10": 29,
+      "TRAFO:2": 2,
+      "TRAFO:3": 3,
+      "TRAFO:4": 1,
+      "TRAFO:8": 1
+    },
+    "witness_length": {
+      "1": 189,
+      "2": 6,
+      "3": 3,
+      "4": 2
+    },
+    "witness_optimality": {
+      "EXACT_MINIMUM": 189,
+      "UPPER_BOUND": 11
+    }
+  },
+  "selected_qv_locality": {
+    "local_count": 200,
+    "local_share": 1.0,
+    "max_distance_pu": 0.1905203401214684,
+    "median_distance_pu": 0.0,
+    "min_distance_pu": 0.0,
+    "total": 200
+  },
+  "valid_pool_count": 273
+}

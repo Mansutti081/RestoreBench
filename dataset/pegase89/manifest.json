@@ -1,0 +1,301 @@
+{
+  "base_network_hash": "303f57ced9d229ab69dca72330156276a521331157e16faf8ab455446e172db9",
+  "dataset_version": "pegase89-reactive-deficit-v1",
+  "environment": {
+    "augmented_artifact": "PEGASE89_AUGMENTED.json",
+    "base_artifact": "PEGASE89_BASE_CASE.json",
+    "bus_count": "89",
+    "network_id": "case89pegase",
+    "pandapower": "3.4.0",
+    "python": "3.11.15"
+  },
+  "policy_hashes": {
+    "composition": "2823305179912a2e7c6514de99b6b21563899ea14174b5685200209b1ebeb34f",
+    "generation": "b7bd71df9fd3acb0924e55f7bf6c472cf615e3d439ec6b2abed08acfaa0e7a85",
+    "operating_profiles": "cae3818e5cda3de144365753581d5ddb33305a2cbd982181f05c5983214cb863",
+    "pockets": "f14a9ec104f96c1a72d1f74762e7d2a8886ea1dd831d80ed0d2e6a861342c4ea",
+    "reactive_thresholds": "18c654fb26b4beb8e5230e747ba57d0361492538937c3fd64edb056729517071",
+    "scan": "48fcd6c05bccbf5fd9f251aeeb13ee7d7e039760f226b6cadd2219c48fff9b1c",
+    "witness": "f507039b0e6ee5199a38baeb4aabcff92e71ff48aa44230e591bc3e75972cec1"
+  },
+  "scenario_count": 46,
+  "scenarios": [
+    {
+      "card_artifact_hash": "e36612882247e40479e5e0a3fed6db224f1d10be77b965706b80a6ca40568394",
+      "full_artifact_hash": "aa0c2e845600834ea7785d8c51509ccb384acf537f3d16921da7d3be01676500",
+      "lean_artifact_hash": "17a2090c6c9ca0da327db94ac2c600d6837f05fc2d38770ae1768ba68863c5b7",
+      "scenario_id": "S0001"
+    },
+    {
+      "card_artifact_hash": "1e94800d3f479f9a8493714e043cf016b4c66adaeaa674be866830e6d23996eb",
+      "full_artifact_hash": "94f085078918e73f2acf8f894132fccff4f9680649aaad442d775683f966227c",
+      "lean_artifact_hash": "30250cd26253a0cea05bbca103e8a63796fbcd27409420639a558e1316e2aca3",
+      "scenario_id": "S0002"
+    },
+    {
+      "card_artifact_hash": "c45e98347a686df055f3491966b763ce4ec9c1069a3f9ee579d991781138d75c",
+      "full_artifact_hash": "5c9797e43551e62e566ff5bd0b358e7c59e2c8842594ce8de9068fa39b1b7afb",
+      "lean_artifact_hash": "5124535bb34228934e813b2c54303e7b42597cb1ea259b628849484c6311e7ad",
+      "scenario_id": "S0003"
+    },
+    {
+      "card_artifact_hash": "f225adabb3d8af13a18b2955b1df84e90f9037f84d3167d02458887f70eb6bb8",
+      "full_artifact_hash": "05b3e04ca46a797393fa4338378aa9eb2863db64cfb79bf7e7cbd471f8a5363f",
+      "lean_artifact_hash": "697a316cbdde1238fe77f0a1b0dfa476bead7482b07e1129d3bd581a146db2f7",
+      "scenario_id": "S0004"
+    },
+    {
+      "card_artifact_hash": "7e26a7ff750eed302b096765d3d39e49790015ad0fea0ab11f9dba0c41147a54",
+      "full_artifact_hash": "b675c46c3a5b6dfcf4c9815c363345258d996ab14f2fe833af32253b67df3fd9",
+      "lean_artifact_hash": "c730ad240d399c9ad7f2c55f5cadd2b2d0de1c39f5be8ddb4dd068ba87b9ae43",
+      "scenario_id": "S0005"
+    },
+    {
+      "card_artifact_hash": "7e6cd4ffa76be2cec11c1bb92a17e7e603b48377c6d1bb12e2fbc1f30c1e7968",
+      "full_artifact_hash": "0668859dbfbc82ac21084ffea93fb8a97010f175c1c169bdf590298851cb9b75",
+      "lean_artifact_hash": "69511a381977aaeb0d198f67653fe03f317e3c230a184ecc118fc3ef2d7515ba",
+      "scenario_id": "S0006"
+    },
+    {
+      "card_artifact_hash": "add378fad81330f63d63b794c7fd59faea03bd307bba79633fa6c2778c9c510a",
+      "full_artifact_hash": "bf16be28a5aa43ba722c50175693c1efe98746009ca190b64d2ed2c128b4a55b",
+      "lean_artifact_hash": "203e36474466fd59d653d30f72079968dbfde0cfa8312f977e86564e808305fb",
+      "scenario_id": "S0007"
+    },
+    {
+      "card_artifact_hash": "0439fe09d84e9a3071d504ab9bef3e881bbac7aa65ee36600eae3c6af7a9d58f",
+      "full_artifact_hash": "1cbeedbc28a9bd23927ec4b975c8566dc61872499d6354d16c5bd51d9d84731c",
+      "lean_artifact_hash": "1aea933e997c0960237d600cb52495b4650bca8cdade0b0ea2265a7ef632061f",
+      "scenario_id": "S0008"
+    },
+    {
+      "card_artifact_hash": "772337e270b34acd1abea49ed4481ea64d5ed3e8c498f50959442d9c368af8eb",
+      "full_artifact_hash": "3d7cb4f6e8a51138d297a5c467514a627760d2960cdaba19b12903b7d9e7f67a",
+      "lean_artifact_hash": "6f27b4d0df73ba9d2046e9daef84b5d3b4c3acf12256901f6c842dbed344a4ca",
+      "scenario_id": "S0009"
+    },
+    {
+      "card_artifact_hash": "3bd3e97d4fcfe16fc447ca1efde6f6054a00b2c02f0c1835e65ca47e8f27817a",
+      "full_artifact_hash": "7b8b4ab1ce74e7a51540eb01f1eaeb39be638286b3132c46f6b8e06ebb5d806e",
+      "lean_artifact_hash": "89ac28b2cd5fba960b71f79e8bb482779e85143586bb3a8a1d7cf907b8500475",
+      "scenario_id": "S0010"
+    },
+    {
+      "card_artifact_hash": "5456f38c27ff5a8a084c00fbc3368fef2a00a48aedeee64eda2af9b1be6bb72f",
+      "full_artifact_hash": "c39ad20f42c46e8be9f423df7bca37bf0748190cf0b0dec7cf722829d9b85324",
+      "lean_artifact_hash": "1be90caf26b7f62d885c5fd63d7637fcde2d674fc063d1c971b3464374805c46",
+      "scenario_id": "S0011"
+    },
+    {
+      "card_artifact_hash": "aa889316386f7e7ba1c5ad837fa6ec7f6e282e2a1b8aa27fced89f5b37b19286",
+      "full_artifact_hash": "de143955e3a68d98a719858c6619f5d98ebab3ec23499235cd91273bab687e9a",
+      "lean_artifact_hash": "1e6db064e7e28bea263b178dda97538c616cc4abaa9cd1cff1231217ab4680f7",
+      "scenario_id": "S0012"
+    },
+    {
+      "card_artifact_hash": "98042835fb6aaad4eca5e3149c2aeb3bcb3d7005b3c0e90ae5b0d6f41c7da07a",
+      "full_artifact_hash": "b55bd08b71e2a8017df441abe08323f90bb89b45c050eaee8d373308cb8bb3c0",
+      "lean_artifact_hash": "73286f1e8b41c7f1b8402bf91d0295350d58c0622104e619e035fa27380e0335",
+      "scenario_id": "S0013"
+    },
+    {
+      "card_artifact_hash": "a4de5dab755b7f7c404fb6dd63c2a332c28f8a5b4b8645f57a526a7e28d516b8",
+      "full_artifact_hash": "5f781584f999ddfb3aa5b145b2a509033d857595992fc4348e77fa0d3b5f288e",
+      "lean_artifact_hash": "8d24a2fb63c8e8347198f9c6e23a5370b0a8be9b4dc7cdebda72f541fccdc801",
+      "scenario_id": "S0014"
+    },
+    {
+      "card_artifact_hash": "4f0c07ac66d1cf46f1585dab249fb6ba7db699a7c7396fcd9a1d821c959902fb",
+      "full_artifact_hash": "5e6263ac5b29ffaed3852587a6bd9a407c1c5a30781ecb8934a62c3e6153cb15",
+      "lean_artifact_hash": "68f9de13e1ac8f4181f49edde5749099e3fb0962554a152c138eb181b5881cdb",
+      "scenario_id": "S0015"
+    },
+    {
+      "card_artifact_hash": "0faf7e9d1f1e4a150d23ff8fc77deb819fa786f9d8036c907f12df2eb6242ab9",
+      "full_artifact_hash": "1fcc9305f23c91d0c85474d0d52bf23c3fc47f6f125745f78bc1a36689eaed7e",
+      "lean_artifact_hash": "81c67e454fe1a2559b56e0f047e4498c665cc55568264c39180a38aa0e91c2a8",
+      "scenario_id": "S0016"
+    },
+    {
+      "card_artifact_hash": "17f07eedd5f7df4087a408219bf07753aee6c9bf9cad135c01b302f4004fcb3e",
+      "full_artifact_hash": "683b700f29c309554738f7a01956ef274884c3a3e39596daa7047d61bc1e3bcd",
+      "lean_artifact_hash": "77c1e7070eb9fcd6d30c3de906da98096a586265f995867bf70333d4e173758b",
+      "scenario_id": "S0017"
+    },
+    {
+      "card_artifact_hash": "cc321ce3b358d697c1c14326286b416ccfd76184d2815e1ccb8ac5c69d556a37",
+      "full_artifact_hash": "389fa994648cf8f934840a0a9cf25a63c2250ae1cc0f4fa1209ba7eb383b2c22",
+      "lean_artifact_hash": "cbd7add180a214811a233eeccf2e2987248142d26816991eeaf2f90a0e2e67a3",
+      "scenario_id": "S0018"
+    },
+    {
+      "card_artifact_hash": "777cdce35502f3c044e1e0b435a7d9144c2916420783e6360b27f9d265a47e67",
+      "full_artifact_hash": "98abf1d61fdae0f5d11c0218d71ee15e1a15de108b3abb1afdc5ae11b147d72d",
+      "lean_artifact_hash": "6309f93b405ad82686feacc68e277fcc00a162353b7fc0490f66ff4767dcb5e0",
+      "scenario_id": "S0019"
+    },
+    {
+      "card_artifact_hash": "a76f8a68c40a52046b907cf11dd14a0716e756a05749bae695b10c032d56eb63",
+      "full_artifact_hash": "d2cf6cfe033932787ecd3f1f9176e51e63db78dc4e16e489e1dc7532f0bdb084",
+      "lean_artifact_hash": "2809587f7ce5914203f0d58bcb7046183349b8b8cb484457ae224154feec5790",
+      "scenario_id": "S0020"
+    },
+    {
+      "card_artifact_hash": "bef5ff464f5e9e527bacadf92683642b46b3b449fa920db30a48f236a3a5353b",
+      "full_artifact_hash": "dd3b1161e7036cf506ccbf20f5b8585c2d58faea714d3bd0d02ed8cf514b230b",
+      "lean_artifact_hash": "3ba477830586ce2d8434350a68f6041521b7b0036ca468510266ddddfe0da9cb",
+      "scenario_id": "S0021"
+    },
+    {
+      "card_artifact_hash": "3d4e344d3109a5e8411159cae75d64e32bcc639867f78cde776d65034ad5ba73",
+      "full_artifact_hash": "a7cfdd026e9bbf2dca1d9e8831bca375f2389e7b15d86abd0458c2a2f243a72e",
+      "lean_artifact_hash": "973a746836b7cf76191f561b59bbffd3d5c799156a5452ced67c5b639cc0fec5",
+      "scenario_id": "S0022"
+    },
+    {
+      "card_artifact_hash": "4c548094294d654d0963605c1d1b43dd4df8095084495249c90b8f2931a9a58b",
+      "full_artifact_hash": "5b60476c023e42abbf2c8fc5a5d7b556a65e5e19909dc6c7ca758f07528b8190",
+      "lean_artifact_hash": "ac7e9cb88249ca6985fbe8601f477de3f79a7d3bb59034937edbc63de994ef96",
+      "scenario_id": "S0023"
+    },
+    {
+      "card_artifact_hash": "1d4d3a5a11b97a2390fbcaa7bd72d36555656784854fb6de6dfa3a85eae3c7ef",
+      "full_artifact_hash": "2b3c2d4b417de58e1aa42319e6b74df5416c0806be1b299e464ae4b09bc8d34e",
+      "lean_artifact_hash": "ce5786ac54794d7b92742e6bc4dcacc0590a85b4776ff39c244fb668dd71df43",
+      "scenario_id": "S0024"
+    },
+    {
+      "card_artifact_hash": "611c20fb8443a0abbbf8cfae3eb7dc027bd1b9782f0a04e00e19a30cc245fe3d",
+      "full_artifact_hash": "528b5d1b5dad1749175ad039ba9f42ec884d8425b8129f09bf5ee9e3e10c9cb0",
+      "lean_artifact_hash": "42122116ab35b7b4ca9558c6b8e7d636e39e319195188fdc18893ac6316afa3b",
+      "scenario_id": "S0025"
+    },
+    {
+      "card_artifact_hash": "07ef4888ab50a65b775313837e8aafac876b474f787ebf33186daa45d5102d33",
+      "full_artifact_hash": "18515362cab69dae1768f6bda96c92fb8360f6e2ff3d1d7e6079475d0fa3b368",
+      "lean_artifact_hash": "ce9b3bbf2c2c2d838a6d54e5f8754bd7cd5097ce400f80a1da3761314b2e766f",
+      "scenario_id": "S0026"
+    },
+    {
+      "card_artifact_hash": "d8949d2c518e8811910249790600e17442fa6e0c34e0be78123539d596e87065",
+      "full_artifact_hash": "5591e8796c676114d2f577c8dd2d4e0ea154b3f58b61bfd2c7e2ede635c9bbd2",
+      "lean_artifact_hash": "2a80f0922182bcbdf6dc0ed729453d93d72d7024e31fe0fce73e097cf7713302",
+      "scenario_id": "S0027"
+    },
+    {
+      "card_artifact_hash": "4471c59d08e7efd195a0a32ea19fd6f9e5efe7cc12eba6be3c12ec3dfb9d5f55",
+      "full_artifact_hash": "b9d0d12c49a4d0e327810590ee70f606f136ef8d923c38209aa25232c1284ebb",
+      "lean_artifact_hash": "0b47b6edee16d5e9a9b393feee1d0ba0fb26fc1dff247a88dc016f789534141f",
+      "scenario_id": "S0028"
+    },
+    {
+      "card_artifact_hash": "ed05d7cde18112d47f0ea89ed2934fb916424b2949d010ccd7c56e3358928da1",
+      "full_artifact_hash": "6e828660bbf2d84a5ea40b90baff93b123fc3ba629c0d2e2f6046abf988aed36",
+      "lean_artifact_hash": "5d1ef542100a64066c21fa7d78a9eb03a59a6ef695952362d02133531bf9fff7",
+      "scenario_id": "S0029"
+    },
+    {
+      "card_artifact_hash": "eb31e243660ecf5333734a32b2cbc338f56954b8ad49f4f98fbf41f15d575901",
+      "full_artifact_hash": "923497de3c11eaa89c3400cb7179051208d316d99bb22f1c97bf336192922022",
+      "lean_artifact_hash": "8ce96e3903da7f39393e76837e8f5e5628539eb5d5fa62ec12e0d0db19ef57a9",
+      "scenario_id": "S0030"
+    },
+    {
+      "card_artifact_hash": "ec55dafd0b53255fa0ccd304e52c032c529c475f949a0c41dc09e7c0d66f109f",
+      "full_artifact_hash": "ea01dcb2cad5dbff93e2a2ce9d0438d3434b16dae47e25d0b095ad1edb20ac32",
+      "lean_artifact_hash": "e04daba240c362564d6a28ea62191bd5658c3c92bb629e42dc9ccfe9520abeac",
+      "scenario_id": "S0031"
+    },
+    {
+      "card_artifact_hash": "b208c32372fd900ef9a000ef1b6b71bc404721362957f11e4ff4b18cfae3c3bd",
+      "full_artifact_hash": "76b9266bd5bb48188e8ec2889c942418a6efa270a9227e6c9ecd036b72f13ea6",
+      "lean_artifact_hash": "cfc3b85f2fbede88bcdff879a9abca57c282cf237a98950eedf83c9226520f50",
+      "scenario_id": "S0032"
+    },
+    {
+      "card_artifact_hash": "38812d74ec1b37e81d255530042220fb35e8312160b8b579980a92380e4a7a8a",
+      "full_artifact_hash": "8bf5543a342f7702c3907443890241097607b7e1a3cf3566171a28d5dc41e694",
+      "lean_artifact_hash": "2933d8e942314c2cd7fcc796537ec41b347d98199f081c9b17e3d8d29bd3d3cf",
+      "scenario_id": "S0033"
+    },
+    {
+      "card_artifact_hash": "26f95ebfd4cfeb38026ccf6118a2f1a2c8b400b120248f7b4c2869bd5b5cd13d",
+      "full_artifact_hash": "c3919c4f832de279de11874bf7f9e45dc8a8a5b3aa807d1a5ce1824458ec6162",
+      "lean_artifact_hash": "72ae5bb8069cafc129f2539d6ca64a4ba7a4d7cdc7d0a99ea1f80e1016337179",
+      "scenario_id": "S0034"
+    },
+    {
+      "card_artifact_hash": "ff1142bb358bcc126a30f6adc41e804a907879f1ea7d491650f989f073570fa5",
+      "full_artifact_hash": "40bdf1c225a2785910275468de3786797d9013fd999ec4b6bef6d4723f21e766",
+      "lean_artifact_hash": "6a27a74f8ad0db28c2baa22c97b22fb7350d50a325db69d14e2df174fb8f4b05",
+      "scenario_id": "S0035"
+    },
+    {
+      "card_artifact_hash": "be81a80ddbe32cbde56aaa88203415aa9db865358f46e2faf431d59250e212b0",
+      "full_artifact_hash": "c632a8cb49e479e43bd23cc7a1cb32653378e55ae8cb4a37abe58c1750d333bd",
+      "lean_artifact_hash": "8577fa0b4a1c8aa482c3cdebfb480f741961b3ace1eafe86c87c220f9326aaf8",
+      "scenario_id": "S0036"
+    },
+    {
+      "card_artifact_hash": "6b9d4393cd91a6a0b22715a42b24a70f915b2b16e119e018e09e2b775a0f3684",
+      "full_artifact_hash": "3518df195901e818a58f96862865877ac9890ea9d67affc9bad90995c515a0f3",
+      "lean_artifact_hash": "d679e55c700ec197f8ca2bad90fb876b875d21a098198bb7d7a6fcb7714828e2",
+      "scenario_id": "S0037"
+    },
+    {
+      "card_artifact_hash": "bf99eab9f5b8677c30dcb6442f6050a7bee7c905f64eb1a824748881a89a83af",
+      "full_artifact_hash": "c0f55bdd01a0f1df2a862b10762fc4c3c396acaa8b4e8c017952abd53d141cc0",
+      "lean_artifact_hash": "0751a137f6418c699bdeb02c67ac50e82cf14da6be49da52ef6b55b6cf0bb49d",
+      "scenario_id": "S0038"
+    },
+    {
+      "card_artifact_hash": "b9b844ea8b8491b77d3bfc3151629256356ee3b575233d1ae5a8a3d9ce7e96d6",
+      "full_artifact_hash": "bf403c9cd8d4eb276f907ca62c5bc1ee463fbff9603b76049995c89d711155a1",
+      "lean_artifact_hash": "f2fa5c9a16f89c9d26604f7e787fc376944896a79d76587c2a38650cb382b0bf",
+      "scenario_id": "S0039"
+    },
+    {
+      "card_artifact_hash": "78abf1550883a4f6ec6cc9ac371830ce761cbf1a2e25ea22549483ce5329deac",
+      "full_artifact_hash": "c74324f7a5be2667e5328540f53942bfaa1aed693555b7610742fbf63424cab2",
+      "lean_artifact_hash": "4f1c6fd205acf37d4c75172abccbe9b37f1cca97f0f51b21b991c2f84ad2dacc",
+      "scenario_id": "S0040"
+    },
+    {
+      "card_artifact_hash": "2f706f5b92efc0a840262c449e6249b68805897f095dea031ab9d6850e38c27a",
+      "full_artifact_hash": "1ce6e2f4429c0c6edb3e248918dfa46c04297c40c771d4a547aaaf4d7ba72d31",
+      "lean_artifact_hash": "349de0ad8b992ae528d03db10ea8c65af2f9a29231e7d003da274e45b10a1d0d",
+      "scenario_id": "S0041"
+    },
+    {
+      "card_artifact_hash": "6d5c1481df32152272803e1863266b5665af1ee54e8014b037815cefbe21ac57",
+      "full_artifact_hash": "15ae822883a8aa881131480548f8a1123bbea30164cb276ceff2931d14198bbc",
+      "lean_artifact_hash": "8dfd2ea685563bd9d0bac91caef59bb36700d13452c7cb5d2fcfae275bbdd433",
+      "scenario_id": "S0042"
+    },
+    {
+      "card_artifact_hash": "6f38061242664082208c095231347a0a97ef889ca6b7d4666f1cdf1e689807eb",
+      "full_artifact_hash": "ca795e7d481348ef815f972ed818f9055b87543ed03315b450f7572e8cafd3ca",
+      "lean_artifact_hash": "dde3f1ad71b4440a55fc562f832dc3f5f30bf726d9cd727780ab0e54ea875ec1",
+      "scenario_id": "S0043"
+    },
+    {
+      "card_artifact_hash": "3a8fff94e0a53778dd58634dace0a3bade85a9c3d266161db17077441c18d8ed",
+      "full_artifact_hash": "b4983bfdf51702e73ec4d7c55b1fff720c793e33111e32fb2c45383a63a62a2c",
+      "lean_artifact_hash": "4ddb14b32e99f672f4a42d46548b3ba1cae1da15f52d5d3b853034eaba620ebc",
+      "scenario_id": "S0044"
+    },
+    {
+      "card_artifact_hash": "6501606eabd66e3fad1620885d3b63e042196e35480856c0b37eccc3a42b03c5",
+      "full_artifact_hash": "8a4094d30ca7a5e06cf8082cf0171272888204496580921d10810c2cbe871286",
+      "lean_artifact_hash": "5a8b9d34f6922ff003cb07397ddce5e4ade1e43a105137e91f9450019d6b7a64",
+      "scenario_id": "S0045"
+    },
+    {
+      "card_artifact_hash": "b9a5395290437fdf490da23c3b107b6ac14f9e4fa162c89321dde6305539002e",
+      "full_artifact_hash": "ad3e5a545d28c6a6e2ede22ad59454dc5cb5cc717c40cb857e077362a3cb4876",
+      "lean_artifact_hash": "182b8bf11670f4f937be8e4514249d6a1f26df35c83b775217c47254e6ae5a76",
+      "scenario_id": "S0046"
+    }
+  ],
+  "split_manifest_hash": "526b8e1b2f3ff6dfd916bf2abbc537f379612ec9359f7cbb8867451202b79ed1"
+}

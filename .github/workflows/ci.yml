@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+# A push arriving mid-run replaces it instead of queueing behind it.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality-gate:
+    name: ruff + pytest (full suite)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install Python 3.11
+        run: uv python install 3.11
+
+      - name: Sync dependencies from uv.lock
+        run: uv sync --frozen
+
+      - name: Ruff
+        run: uv run ruff check .
+
+      - name: Pytest (including slow tests)
+        run: uv run pytest -q --durations=10
+
+      # A green tick should mean the corpora still hold their own claims on a machine that is not
+      # the curation machine, not only that the code compiles. Witness convergence sits at the
+      # solvability boundary, so this is exactly where BLAS differences would surface — run it
+      # even when pytest fails, so one failure does not hide the other.
+      - name: Verify every ieee118 witness on this platform
+        if: ${{ !cancelled() }}
+        run: uv run restorebench-verify --dataset-dir dataset/ieee118
+
+      - name: Verify every pegase89 witness on this platform
+        if: ${{ !cancelled() }}
+        run: uv run restorebench-verify --dataset-dir dataset/pegase89
+
+      - name: Record the runner CPU
+        if: ${{ !cancelled() }}
+        run: grep -m1 "model name" /proc/cpuinfo

@@ -1,0 +1,42 @@
+# License and provenance for the RestoreBench corpora
+
+Copyright (c) 2026 The RestoreBench Authors
+
+The scenario corpora in this directory — the snapshots under `full/` and `lean/`, the
+Scenario Cards under `llm/`, the curation labels and witnesses under `private/`, and the
+manifests — are licensed under the **Creative Commons Attribution 4.0 International**
+license (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the license, and indicate if changes were
+made. Full terms: https://creativecommons.org/licenses/by/4.0/
+
+## Attribution
+
+If you use these corpora, please cite RestoreBench and, because the base networks carry
+their own citation requirements, the sources below.
+
+## Provenance of the base networks
+
+The scenarios are derived from two published test networks, obtained through
+[pandapower](https://github.com/e2nIEE/pandapower) (BSD-3-Clause, University of Kassel and
+Fraunhofer IEE), which in turn sources them from
+[MATPOWER](https://matpower.org/). Neither network is original to this project; both are
+augmented and stressed by the pipeline in `restorebench/corpus/`, and the augmentation is
+recorded in each corpus's `manifest.json`.
+
+**IEEE 118-bus** (`dataset/ieee118/`) — the standard IEEE 118-bus test case, via
+`pandapower.networks.case118`.
+
+**PEGASE 89-bus** (`dataset/pegase89/`) — via `pandapower.networks.case89pegase`. The data
+originates from the PEGASE project and is documented in:
+
+> C. Josz, S. Fliscounakis, J. Maeght, P. Panciatici. *AC Power Flow Data in MATPOWER and
+> QCQP Format: iTesla, RTE Snapshots, and PEGASE.* arXiv:1603.01533, 2016.
+
+> S. Fliscounakis, P. Panciatici, F. Capitanescu, L. Wehenkel. *Contingency Ranking with
+> Respect to Overloads in Very Large Power Systems Taking into Account Uncertainty,
+> Preventive, and Corrective Actions.* IEEE Transactions on Power Systems, vol. 28, no. 4,
+> pp. 4909–4917, Nov 2013.
+
+If you redistribute the PEGASE-derived corpus, carry these citations with it.
